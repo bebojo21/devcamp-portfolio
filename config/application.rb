@@ -19,5 +19,6 @@ Bundler.require(*Rails.groups)
 
 module AppIsaac
   class Application < Rails::Application
+    config.eager_load_paths << "#{Rails.root}/lib"
   end
 end
