@@ -98,6 +98,7 @@ h6, .h6 {
 .blog-description {
   font-size: 1.1rem;
   color: #999;
+  font-style:italic;
 }
 
 @media (min-width: 40em) {
@@ -190,4 +191,36 @@ h6, .h6 {
 .comment-name {
   font-weight: 700;
   color: #0275d8;
+}
+
+.youtube a {
+  color: #d71e17;
+}
+
+a.youtubehover:hover {
+  color: #ad1611;
+}
+
+.instagram a {
+  color: #8a3ab9;
+}
+
+a.instagramhover:hover {
+  color: #682b8c;
+}
+
+.steam a {
+  color: #666666;
+}
+
+a.steamhover:hover {
+  color: #444444;
+}
+
+.github a {
+  color: #212121;
+}
+
+a.githubhover:hover {
+  color: #000000;
 }
