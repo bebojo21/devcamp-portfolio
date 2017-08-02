@@ -227,6 +227,7 @@ body {
 
 .app-card-container > .card {
   padding: 35px;
+  background-color: #FFF9E3;
 }
 
 .app-card-container a {
@@ -235,4 +236,9 @@ body {
 
 .profile-img {
   border: 0px solid #0B590D;
+}
+
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
