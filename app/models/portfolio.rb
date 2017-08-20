@@ -10,10 +10,6 @@ class Portfolio < ApplicationRecord
     mount_uploader :thumb_image, PortfolioUploader    
     mount_uploader :main_image, PortfolioUploader
     
-    def self.what
-        where(body: 'What fjkdsal fhdslhs hahaha g elit, sed do eiusmod tempor.')
-    end
-    
     def self.by_position
         order("position ASC") 
     end

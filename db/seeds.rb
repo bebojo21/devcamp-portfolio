@@ -17,19 +17,25 @@ User.create!(
 
 puts "1 regular users created"
 
-3.times do |topic|
+1.times do |topic|
     Topic.create!(
-        title: "Topic #{topic}"    
+        title: "General"    
     )
 end
 
-puts "3 Topics created"
+1.times do |topic|
+    Topic.create!(
+        title: "Coding"    
+    )
+end
+
+puts "2 Topics created"
 
 1.times do |blog|
     Blog.create!(
         title: "My Blog Post #{blog}",
         body: "A",
-        topic_id: Topic.last.id
+        topic_id: Topic.first.id
     )
 end
 
@@ -37,42 +43,42 @@ puts "1 blog posts created"
 
 1.times do |skill|
     Skill.create!(
-        title: "Rails #{skill}",
+        title: "C#",
+        percent_utilized: 35
+    )
+end
+
+1.times do |skill|
+    Skill.create!(
+        title: "Ruby on Rails",
+        percent_utilized: 30
+    )
+end
+
+1.times do |skill|
+    Skill.create!(
+        title: "HTML",
         percent_utilized: 15
     )
 end
 
 1.times do |skill|
     Skill.create!(
-        title: "Rails #{skill}",
+        title: "CSS",
         percent_utilized: 15
     )
 end
 
 1.times do |skill|
     Skill.create!(
-        title: "Rails #{skill}",
-        percent_utilized: 15
-    )
-end
-
-1.times do |skill|
-    Skill.create!(
-        title: "Rails #{skill}",
-        percent_utilized: 15
-    )
-end
-
-1.times do |skill|
-    Skill.create!(
-        title: "Rails #{skill}",
-        percent_utilized: 15
+        title: "Javascript",
+        percent_utilized: 5
     )
 end
 
 puts "5 skills created"
 
-9.times do |portfolio_item|
+1.times do |portfolio_item|
     Portfolio.create!(
         title: "Portfolio title: #{portfolio_item}",
         subtitle: "By Isaac Johnsen",
@@ -82,12 +88,24 @@ puts "5 skills created"
     )
 end
 
-puts "1 portfolio items created"
-
-9.times do |technology|
-    Portfolio.last.technologies.create!(
-        name: "Technology #{technology}",
+1.times do |portfolio_item|
+    Portfolio.create!(
+        title: "Portfolio title: #{portfolio_item}",
+        subtitle: "By Isaac Johnsen",
+        body: "A",
+        main_image: "http://placehold.it/600x400",
+        thumb_image: "http://placehold.it/350x200"
     )
 end
 
-puts "1 technologies created"
+1.times do |portfolio_item|
+    Portfolio.create!(
+        title: "Portfolio title: #{portfolio_item}",
+        subtitle: "By Isaac Johnsen",
+        body: "A",
+        main_image: "http://placehold.it/600x400",
+        thumb_image: "http://placehold.it/350x200"
+    )
+end
+
+puts "3 portfolio items created"

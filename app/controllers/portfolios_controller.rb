@@ -1,10 +1,13 @@
 class PortfoliosController < ApplicationController
     before_action :set_portfolio_item, only: [:show, :edit, :update, :destroy]
     layout 'portfolio'
-    access all: [:show, :index, :what], user: {except: [:destroy, :new, :create, :update, :edit, :sort]}, site_admin: :all
+    access all: [:show, :index], user: {except: [:destroy, :new, :create, :update, :edit, :sort]}, site_admin: :all
     
     def index
         @portfolio_items = Portfolio.by_position
+        
+        @page_title = "Isaac Johnsen's Portfolio"
+        @seo_keywords = "Isaac Johnsen's Portfolio"
     end
     
     def sort
@@ -13,10 +16,6 @@ class PortfoliosController < ApplicationController
         end
         
         render nothing: true
-    end
-    
-    def what
-        @what_items = Portfolio.what
     end
     
     def new

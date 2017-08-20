@@ -4,7 +4,7 @@
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 .navbar {
@@ -23,7 +23,7 @@ body {
 }
 
 .jumbotron-heading {
-  font-weight: 300;
+  font-weight: bold;
 }
 
 .jumbotron .container {
@@ -44,6 +44,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   font-family: 'Muli', sans-serif;
+  font-weight: bold;
 }
 
 .card {
@@ -59,7 +60,7 @@ h6, .h6 {
 }
 
 .card-text {
-  font-size: 85%;
+  font-size: 95%;
 }
 
 footer {
@@ -75,4 +76,8 @@ footer p {
 
 .portfolio-container {
   padding-top: 30px;
+}
+
+span.portfolio-hover:hover {
+  opacity: 0.75;
 }

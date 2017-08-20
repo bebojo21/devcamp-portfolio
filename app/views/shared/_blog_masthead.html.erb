@@ -1,12 +1,13 @@
 <div class="blog-header">
   <div class="container">
-    <h1 class="blog-title">My Blog</h1>
+    <h1 class="blog-title">Isaac's Eyes</h1>
     <p class="lead blog-description">By Isaac Johnsen</p>
-    <span>
-      <%= link_to 'Create a new blog post', new_blog_path if logged_in?(:site_admin) %>
-    </span>
-    <span>
+    <span class="btn btn-info the-topics">
       <%= link_to "Topics", topics_path %>
+    </span>
+    <p><%= '' if logged_in?(:site_admin) %></p>
+    <span>
+      <%= link_to 'New blog post', new_blog_path, class: 'btn btn-success' if logged_in?(:site_admin) %>
     </span>
   </div>
 </div>

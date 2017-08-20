@@ -1,12 +1,14 @@
 <div class="app-card-container">
   <div class="card">
-    <h1>Pages#about</h1>
+    <div class="pages-align">
+      <h1>About Me</h1>
+    </div>
         
     <hr>
         
     <div class="row">
       <div class="col-md-4">
-        <%= image_tag "profile1.jpg", width: 300, alt:"Profile Picture", class: "profile-img" %>
+        <%= image_tag "profile1.jpg", width: 270, alt:"Profile Picture", class: "profile-img" %>
         <!-- https://yt3.ggpht.com/-48qjYNIF6Ws/AAAAAAAAAAI/AAAAAAAAAAA/XB42MZYoFPc/s900-c-k-no-mo-rj-c0xffffff/photo.jpg -->
         
         <div class="skills">
@@ -28,70 +30,77 @@
       </div>
             
       <div class="col-md-8">
-        <p>Find me in app/views/pages/about.html.erb</p>
+        <p class="pages-align">
+          <b>Hello, my name is Isaac Johnsen.</b> When I was very young, I was highly interested in dinosaurs, and I wanted to become a paleontologist. My interest in dinosaurs has not wavered, but as time went on, I no longer wanted to be a paleontologist; I wanted to be some type of inventor. 
+        </p>
         
-        <p>Another one.</p>
+        <p class="pages-align">
+          I've never wanted to be just another consumer. I want to create new things rather than just be a user. With my goal of becoming an inventor in mind, my other interests shaped what exactly I wanted to invent. These include robots and video games. So in the past several years I have taken classes and been a part of programs in order to become some type of engineer, most likely in computer software, mechanical, or mechatronics engineering.
+        </p>
         
-        <p>
+        <p class="pages-align">
+          Anyway, here's some other information about me. My favorite movie and book series is How to Train Your Dragon. My favorite video games of all time are Terraria and the Halo series. Other interests besides the aformentioned ones are making art, playing basketball, reading, and writing. 
+        </p>
           
           <button
-            class="btn btn-primary"
-            type="button"
-            data-toggle="collapse"
-            data-target="#jobHistory"
-            aria-expanded="false"
-            aria-controls="jobHistory"
-          >
-            Job History
-          </button>
-          
-          <button
-            class="btn btn-primary"
+            class="btn btn-secondary about-buttons"
             type="button"
             data-toggle="collapse"
             data-target="#education"
             aria-expanded="false"
             aria-controls="education"
           >
-            Education
+            ᴇᴅᴜᴄᴀᴛɪᴏɴ
+          </button>
+          
+          <button
+            class="btn btn-secondary about-buttons"
+            type="button"
+            data-toggle="collapse"
+            data-target="#awards"
+            aria-expanded="false"
+            aria-controls="awards"
+          >
+            ᴀᴡᴀʀᴅs
+          </button>
+          
+          <button
+            class="btn btn-secondary about-buttons"
+            type="button"
+            data-toggle="collapse"
+            data-target="#jobHistory"
+            aria-expanded="false"
+            aria-controls="jobHistory"
+          >
+            ᴊᴏʙ ʜɪsᴛᴏʀʏ
           </button>
           
           <p>
-            <div class="collapse" id="jobHistory">
+            <div class="collapse" id="education">
               <div class="card card-block">
-                Jobsssssssss
+                Code to Success
               </div>
-              
               <div class="card card-block">
-                Jobsssssssss
-              </div>
-              
-              <div class="card card-block">
-                Jobsssssssss
-              </div>
-              
-              <div class="card card-block">
-                Jobsssssssss
+                Granite Technical Institute
               </div>
             </div>
           </p>
           
           <p>
-            <div class="collapse" id="education">
+            <div class="collapse" id="awards">
               <div class="card card-block">
-                Schooooooool
+                Holladay City Award
               </div>
-              
               <div class="card card-block">
-                Schooooooool
+                Class completion certificates
               </div>
-              
+            </div>
+          </p>
+          
+          <p>
+            <div class="collapse" id="jobHistory">
               <div class="card card-block">
-                Schooooooool
-              </div>
-              
-              <div class="card card-block">
-                Schooooooool
+                N/A
               </div>
             </div>
           </p>

@@ -1,7 +1,7 @@
 <div class="col-sm-3 offset-sm-1 blog-sidebar">
   <div class="sidebar-module sidebar-module-inset">
-    <h4>About</h4>
-    <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+    <h4>What you'll find here</h4>
+    <p>An assortment of blog posts about various subjects. These blog posts are sorted in the topics listed. Thank you for visiting!</p>
   </div>
   
   <%= source_helper("alert alert-warning blog-sidebar-source") %>
@@ -14,12 +14,22 @@
   </div>
 
   <div class="sidebar-module">
-    <h4>Follow me on social media:</h4>
+    <h4>Follow me on social media</h4>
     <ol class="list-unstyled social-links">
-      <li class="youtube"><a class="youtubehover" href="#"><%= fa_icon "youtube" %></a></li>
-      <li class="steam"><a class="steamhover" href="#"><%= fa_icon "steam" %></a></li>
-      <li class="instagram"><a class="instagramhover" href="#"><%= fa_icon "instagram" %></a></li>
-      <li class="github"><a class="githubhover" href="#"><%= fa_icon "github" %></a></li>
+      <li>
+        <span class="youtube"><a class="youtube-hover" href="https://www.youtube.com/channel/UCCl0jMRVbXQzV6UR0l3FQjg" target="_blank"><%= fa_icon "youtube" %></a></span>
+        <span class="steam"><a class="steam-hover" href="https://steamcommunity.com/profiles/76561198046339651" target="_blank"><%= fa_icon "steam" %></a></span>
+      </li>
+      
+      <li>
+        <span class="instagram"><a class="instagram-hover" href="https://www.instagram.com/isaacjohnsen/" target="_blank"><%= fa_icon "instagram" %></a></span>
+        <span class="twitter"><a class="twitter-hover" href="https://twitter.com/isaacjohnsen" target="_blank"><%= fa_icon "twitter" %></a></span>
+      </li>
+      
+      <li>
+        <span class="github"><a class="github-hover" href="https://github.com/bebojo21" target="_blank"><%= fa_icon "github" %></a></span>
+        <span class="facebook"><a class="facebook-hover" href="https://www.facebook.com/profile.php?id=100006154008096" target="_blank"><%= fa_icon "facebook" %></a></span>
+      </li>
     </ol>
   </div>
 </div>

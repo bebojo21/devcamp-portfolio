@@ -1,46 +1,27 @@
-# README
+# Isaac Johnsen's Website
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application was made by me to create my own personal website.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 2.3+
 
-* System dependencies
+* Rails 5.0+
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Created on Cloud9
 
 
-> This is a Ruby on Rails 5 application that allows users to create their own portfolios.
+> This is a Ruby on Rails 5 application that allows users to create their own website.
 
 ### Features
 
-- Real time chat engine for comments
-- Blog
+- Homepage
+- About page
+- Contact page
+- News page containing Tweets about coding
+- Blog with topics
 - Portfolio
+- User registration
+- Real time chat engine for comments
 - Drag and drop interface
-
-### Code Example
-
-```ruby
-def my_great_method
-    puts "here it is"
-end
-```
-
-```javascript
-alert('Hi there');
-```
+- Bootstrap styles

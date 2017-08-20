@@ -13,8 +13,9 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Muli', sans-serif;
   color: #555;
+  background-color: #f7f7f7;
 }
 
 h1, .h1,
@@ -23,9 +24,9 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: 'Muli', sans-serif;
   color: #333;
+  font-weight: bold;
 }
 
 
@@ -93,7 +94,7 @@ h6, .h6 {
 .blog-title {
   margin-bottom: 0;
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: bold;
 }
 .blog-description {
   font-size: 1.1rem;
@@ -164,7 +165,7 @@ h6, .h6 {
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #f7f7f7;
   border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
@@ -200,6 +201,7 @@ h6, .h6 {
 
 .blog-nav {
   margin-bottom: 35px;
+  background-color: #f0f0f0;
 }
 
 .navbar-nav.mr-auto {
@@ -210,6 +212,11 @@ h6, .h6 {
   margin-top: 20px;
 }
 
+.the-topics a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /*
  * Social media icons
  */
@@ -218,30 +225,46 @@ h6, .h6 {
   color: #d71e17;
 }
 
-a.youtubehover:hover {
+a.youtube-hover:hover {
   color: #ad1611;
-}
-
-.instagram a {
-  color: #8a3ab9;
-}
-
-a.instagramhover:hover {
-  color: #682b8c;
 }
 
 .steam a {
   color: #666666;
 }
 
-a.steamhover:hover {
+a.steam-hover:hover {
   color: #484848;
 }
 
-.github a {
-  color: #212121;
+.instagram a {
+  color: #8a3ab9;
 }
 
-a.githubhover:hover {
+a.instagram-hover:hover {
+  color: #682b8c;
+}
+
+.twitter a {
+  color: #00aced;
+}
+
+a.twitter-hover:hover {
+  color: #0097d1;
+}
+
+.github a {
+  color: #282828;
+}
+
+a.github-hover:hover {
   color: #000000;
+}
+
+.facebook a {
+  color: #3b5998;
+}
+
+a.facebook-hover:hover {
+  color: #283f70;
 }

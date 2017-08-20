@@ -190,6 +190,8 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails_autolink (1.1.6)
+      rails (> 3.1)
     railties (5.1.1)
       actionpack (= 5.1.1)
       activesupport (= 5.1.1)
@@ -289,6 +291,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 3.7)
   rails (~> 5.1.1)
+  rails_autolink (~> 1.1, >= 1.1.6)
   redcarpet (~> 3.4)
   redis (~> 3.3, >= 3.3.3)
   sass-rails (~> 5.0)

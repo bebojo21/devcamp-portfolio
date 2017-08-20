@@ -7,7 +7,7 @@
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
     
-    <link href="https://fonts.googleapis.com/css?family=Muli:300|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,800" rel="stylesheet">
     
     <meta name="keywords" content="<%= @seo_keywords %>" />
     
@@ -24,12 +24,8 @@
           
           <!-- <div id="background"></div> -->
           
-          <%= video_tag(
-              'video1.mp4',
-              id: 'background',
-              autoplay: true,
-              loop: true,
-              muted: true,
+          
+          <%= video_tag( 'background1.jpg', id: 'background', autoplay: false, loop: false, muted: true,
               poster: 'background1.jpg'
             )
             %>

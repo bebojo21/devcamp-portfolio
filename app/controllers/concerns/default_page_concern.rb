@@ -6,7 +6,7 @@ module DefaultPageConcern
     end
     
     def set_page_defaults
-        @page_title = "Isaac Johnsen's Portfolio | Home"
-        @seo_keywords = "Isaac Johnsen's Portfolio"
+        @page_title = "Home • Isaac Johnsen's Homepage"
+        @seo_keywords = "Isaac Johnsen"
     end
 end
